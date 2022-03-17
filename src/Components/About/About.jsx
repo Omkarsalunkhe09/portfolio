@@ -63,8 +63,8 @@ function About() {
       <Quote>
         <blockquote>
           <p>
-            Everybody should learn to program a computer because it teaches you
-            how to think.
+            {/* Everybody should learn to program a computer because it teaches you
+            how to think. */}
           </p>
           <cite>&mdash; Steve Jobs</cite>
         </blockquote>
