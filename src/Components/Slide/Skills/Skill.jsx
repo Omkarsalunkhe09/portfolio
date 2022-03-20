@@ -5,6 +5,10 @@ import React, { useState } from "react";
 // import logo from "./img";
 import "./Skill.css";
 import { MainHeadingWrapper } from "../../Elements/Elements";
+<script
+  src="https://kit.fontawesome.com/7fc6a624dd.js"
+  crossorigin="anonymous"
+></script>;
 
 const Resume = (props) => {
   /* STATES */

@@ -159,7 +159,11 @@ function Slide({ currentTheme }) {
 
         <SlideCanal id="resume">
           <Resume>
-            <a href="https://drive.google.com/file/d/17osjgGaunEEQ-ir67FXHVnncxWCvaVrh/view?usp=sharing">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/17osjgGaunEEQ-ir67FXHVnncxWCvaVrh/view?usp=sharing"
+            >
               <img src={resumeFinal} alt="resume" />
             </a>
           </Resume>
