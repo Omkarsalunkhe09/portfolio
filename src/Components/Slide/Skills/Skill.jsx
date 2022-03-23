@@ -7,8 +7,9 @@ import {
   SiPostman,
   SiVercel,
   SiHeroku,
+  SiCss3,
 } from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
+import { DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 
@@ -70,7 +71,7 @@ function Skillset() {
               <h5>HTML</h5>
             </div>
             <div>
-              <DiCss3 />
+              <SiCss3 />
               <h5>CSS</h5>
             </div>
             <div>

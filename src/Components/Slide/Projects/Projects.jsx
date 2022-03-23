@@ -1,3 +1,7 @@
+import { SiHtml5, SiJavascript, SiCss3, SiExpress } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+
 import React from "react";
 import styled from "styled-components";
 import { makeStyles } from "@material-ui/core/styles";
@@ -6,6 +10,7 @@ import Modal from "@material-ui/core/Modal";
 import { MainHeadingWrapper } from "../../Elements/Elements";
 import ProjectCard from "./ProjectCard";
 import ProjectDetail from "./ProjectDetail";
+import "./Projectdesign.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -48,15 +53,9 @@ let projectArray = [
     description:
       "An E-commerce website to purchase clothes and grooming products.",
     techStack: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-
-      // "React",
-
-      // "Node",
-      // "Express",
-      // "MongoDB",
+      <SiHtml5 size="50px" />,
+      <SiCss3 size="50px" />,
+      <SiJavascript size="50px" />,
     ],
     repoLink:
       "https://github.com/Omkarsalunkhe09/clone-of-lifestyles-stores.com",
@@ -82,13 +81,12 @@ let projectArray = [
     title: "Clone of Firstcry.com",
     description: "A website to purchase all newborn related products.",
     techStack: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      // "NextJs",
-      "Node",
-      "Express",
-      "MongoDB",
+      <SiHtml5 size="50px" />,
+      <SiCss3 size="50px" />,
+      <SiJavascript size="50px" />,
+      <FaNodeJs size="50px" />,
+      <SiExpress size="50px" />,
+      <DiMongodb size="50px" />,
     ],
     repoLink: "https://github.com/unnati1004/firstcry",
     demoLink: "https://friendly-goldwasser-04fd7a.netlify.app/index.html",

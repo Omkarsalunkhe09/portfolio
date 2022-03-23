@@ -293,10 +293,7 @@ function ProjectDetail({
             </ParagraphWrapper>
             <ProjectIcon>
               {techStack?.map((item) => (
-                <div>
-                  <img src={techStackIcons[item]} alt={item} />
-                  <span>{item}</span>
-                </div>
+                <div>{item}</div>
               ))}
             </ProjectIcon>
           </div>
