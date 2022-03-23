@@ -2,34 +2,11 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import { v4 as uuid } from "uuid";
 
-//svg icons
-// import html from "../../Icons/html.svg";
-// import css from "../../Icons/css.svg";
-// import javascript from "../../Icons/javascript.svg";
-// import react from "../../Icons/react.svg";
-// import mongodb from "../../Icons/mongodb.svg";
-// import node from "../../Icons/node.svg";
-// import express from "../../Icons/express.svg";
-// import material from "../../Icons/material.svg";
-// import next from "../../Icons/next.svg";
-
 import {
   MainHeadingWrapper,
   ParagraphWrapper,
   SubHeadingWrapper,
 } from "../../Elements/Elements";
-
-// const techStackIcons = {
-//   HTML: html,
-//   CSS: css,
-//   JavaScript: javascript,
-//   React: react,
-//   MongoDB: mongodb,
-//   Node: node,
-//   Express: express,
-//   MaterialUI: material,
-//   NextJs: next,
-// };
 
 const entranceAnimation = keyframes`
  0% {
