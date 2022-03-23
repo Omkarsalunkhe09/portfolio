@@ -57,6 +57,7 @@ let projectArray = [
       <SiCss3 size="50px" />,
       <SiJavascript size="50px" />,
     ],
+
     repoLink:
       "https://github.com/Omkarsalunkhe09/clone-of-lifestyles-stores.com",
     demoLink: "https://dazzling-meitner-0eb71c.netlify.app",

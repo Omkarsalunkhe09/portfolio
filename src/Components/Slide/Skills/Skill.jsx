@@ -5,7 +5,7 @@ import {
   SiHtml5,
   SiExpress,
   SiPostman,
-  SiVercel,
+  SiNetlify,
   SiHeroku,
   SiCss3,
 } from "react-icons/si";
@@ -105,8 +105,8 @@ function Skillset() {
               <h5>Postman</h5>
             </div>
             <div>
-              <SiVercel />
-              <h5>Vercel</h5>
+              <SiNetlify />
+              <h5>Netlify</h5>
             </div>
             <div>
               <SiHeroku />
